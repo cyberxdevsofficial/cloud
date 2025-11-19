@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile - VCF Saver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="nav">
+    <h2>Profile</h2>
+    <a href="dashboard.html" class="btn">Back</a>
+</div>
+
+<div class="container">
+
+    <input id="pusername" placeholder="Username">
+    <input id="pemail" placeholder="Email">
+    <input id="pbio" placeholder="Bio">
+    <input id="pavatar" placeholder="Avatar URL">
+
+    <button onclick="saveProfile()">Save Profile</button>
+
+    <h3>Change Password</h3>
+
+    <input id="oldpass" type="password" placeholder="Old Password">
+    <input id="newpass" type="password" placeholder="New Password">
+
+    <button onclick="changePassword()">Change Password</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
